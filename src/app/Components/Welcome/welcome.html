@@ -1,1 +1,15 @@
-<h1> G-Swim Login Page</h1> 
+<div>
+    Users from secure api end point:
+    <ul>
+        <li *ngFor="let user of users">{{user.firstName}} {{user.lastName}}</li>
+    </ul>
+</div>
+<div style="text-align:center">
+    <h1>
+      {{ title }}!
+    </h1>
+    <img width="300" alt="Angular Logo" src="assets/images/images.jpg">
+  </div>
+<h2> Perche nessuno nuota come te ! </h2>
+<p><a [routerLink]="['/login']">Logout</a></p>
+

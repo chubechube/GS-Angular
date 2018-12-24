@@ -1,10 +1,11 @@
 
-<div style="text-align:center">
-  <h1>
-    {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="assets/images/images.jpg">
+<!-- main app container -->
+<div class="jumbotron">
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-6 offset-sm-3">
+              <router-outlet></router-outlet>
+          </div>
+      </div>
+  </div>
 </div>
-<h2> Perche nessuno nuota come te ! </h2>
-
-<router-outlet></router-outlet>
