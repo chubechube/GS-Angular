@@ -1,6 +1,6 @@
 export const environment= {
 
-  apiUrl: 'http://localhost:4200/',
-  production: false
+  apiUrl: 'http://gswim.ddns.net:3030/',
+  production: true
      // <-- HERE PUT OTHER CONFIG THAT CAN CHANGE FROM EENVIROMENT 
 };

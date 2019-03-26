@@ -9,7 +9,7 @@ import { AppComponent } from './app.component';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
 //Services and Providers
-import { fakeBackendProvider } from './_helpers/fake-backend';
+//import { fakeBackendProvider } from './_helpers/fake-backend';
 import { JwtInterceptor } from './_helpers/jwt-interceptor';
 import { ErrorInterceptor } from './_helpers/error.interceptor'
 
@@ -69,7 +69,7 @@ export class MaterialModule {}
  
 
     // provider used to create fake backend
-    fakeBackendProvider
+    //fakeBackendProvider
 
   ],
   bootstrap: [AppComponent]
